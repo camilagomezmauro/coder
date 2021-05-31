@@ -1,0 +1,17 @@
+.header__ul {
+    display: flex;
+}
+
+
+.header__li{
+    margin: 0 10px;
+    list-style: none;
+}
+
+nav a:hover{
+    color: #f14c50;
+}
+
+a {
+    text-decoration: none;
+}

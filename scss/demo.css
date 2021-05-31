@@ -1,0 +1,139 @@
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+h1 {
+  color: #ee0034;
+}
+
+.header__ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+nav a:hover {
+  color: #f14c50;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #f14c50;
+  padding: 50px;
+}
+
+footer p {
+  color: white;
+  font-size: 30px;
+}
+
+.alinear {
+  text-align: center;
+}
+
+.card {
+  background: violet;
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__titulo {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 100;
+  color: black;
+}
+
+.card__enlace-titulo {
+  color: black;
+}
+
+.card__parrafo {
+  line-height: 28ox;
+  margin-bottom: 20px;
+}
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: black;
+  color: white;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5b18c5;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.boton:hover {
+  background: #331168;
+}
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+}
+/*# sourceMappingURL=demo.css.map */

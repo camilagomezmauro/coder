@@ -1,0 +1,17 @@
+@import "fuentes";
+@import "header";
+@import "nav";
+@import "footer";
+@import "section";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+}

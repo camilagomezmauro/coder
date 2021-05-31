@@ -1,0 +1,66 @@
+.card {
+    background: violet;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.card__thumbnail{
+    width: 650px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card__img {
+    width: 100%;
+}
+
+.card__titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    color: black;
+}
+
+.card__enlace-titulo {
+    color: black;
+}
+
+.card__parrafo {
+    line-height: 28ox;
+    
+    margin-bottom: 20px;
+}
+
+.boton {
+    border: none;
+    min-width: 180px;
+    height: 50px;
+    padding: 0 30px;
+    background: black;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(91, 24, 197);
+    transition: .3s ease all;
+}
+
+.boton:hover{
+    background: rgb(51, 17, 104);
+}
+
+.boton--absolute{
+    position:absolute;
+    right: 20px;
+    bottom: -25px;
+}
